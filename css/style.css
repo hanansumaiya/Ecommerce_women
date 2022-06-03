@@ -22,6 +22,13 @@ a {
 a:hover {
   color: #ff5757;
 }
+p {
+  color: #797979;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
 
 /* ================ */
 .menu_icon i {
@@ -47,7 +54,7 @@ a:hover {
   height: 180px;
 }
 .bestPicks {
-  background-color: #eeeeee;
+  background-color: #f7f7f7;
 }
 
 .bestPicks p {
@@ -70,4 +77,85 @@ a:hover {
   padding: 10px 0px;
   color: #7e7e7e;
   font-size: 14px;
+}
+.discount-item a:hover {
+  color: #ff5757;
+}
+/* =========== */
+.card .dollar {
+  color: #ff5757;
+  font-weight: 700;
+}
+.card img {
+  height: 250px;
+}
+.btn {
+  color: #ff5757;
+  border: 2px solid #ff5757;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 30px;
+}
+.btn:hover {
+  border: 2px solid transparent;
+  color: #ffffff;
+  background-color: #ff5757;
+}
+/* =================== */
+/* .shoe-discount {
+  background-image: url("/images/bg.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px 150px;
+} */
+.shoe-discount {
+  background-color: antiquewhite;
+  padding: 30px 0px;
+}
+.selectedt-left {
+  height: 500px;
+}
+.selectedt-left img {
+  width: 75%;
+  height: 100%;
+}
+.blogs {
+  padding: 60px 0px;
+}
+.subscribe {
+  background-color: #ffd4d4;
+}
+footer {
+  background-color: #2a2a2a;
+}
+/* ==================================== */
+/* ==================================== */
+/* Media Query */
+@media screen and (max-width: 991px) {
+  .selectedt-left img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .selectedt-left {
+    height: 300px;
+  }
+  .selectedt-left img {
+    width: 100%;
+    height: 80%;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .selectedt-left {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .selectedt-left img {
+    width: 50%;
+    height: 90%;
+  }
 }
